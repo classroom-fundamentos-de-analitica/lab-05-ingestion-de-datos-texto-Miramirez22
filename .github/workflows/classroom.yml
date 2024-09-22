@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test 01
         setup-command: pip3 install pandas
-        command: python3 tests.py 01
+        command: python3 test.py 01
         timeout: 10
         max-score: 1
     - name: Test 02
@@ -28,7 +28,7 @@ jobs:
       with:
         test-name: Test 02
         setup-command: pip3 install pandas
-        command: python3 tests.py 02
+        command: python3 test.py 02
         timeout: 10
         max-score: 1
     - name: Test 03
@@ -37,7 +37,7 @@ jobs:
       with:
         test-name: Test 03
         setup-command: pip3 install pandas
-        command: python3 tests.py 03
+        command: python3 test.py 03
         timeout: 10
         max-score: 1
     - name: Test 04
@@ -46,7 +46,7 @@ jobs:
       with:
         test-name: Test 04
         setup-command: pip3 install pandas
-        command: python3 tests.py 04
+        command: python3 test.py 04
         timeout: 10
         max-score: 1
     - name: Test 05
@@ -55,7 +55,7 @@ jobs:
       with:
         test-name: Test 05
         setup-command: pip3 install pandas
-        command: python3 tests.py 05
+        command: python3 test.py 05
         timeout: 10
         max-score: 1
     - name: Test 06
@@ -64,7 +64,7 @@ jobs:
       with:
         test-name: Test 06
         setup-command: pip3 install pandas
-        command: python3 tests.py 06
+        command: python3 test.py 06
         timeout: 10
         max-score: 1
     - name: Test 07
@@ -73,7 +73,7 @@ jobs:
       with:
         test-name: Test 07
         setup-command: pip3 install pandas
-        command: python3 tests.py 07
+        command: python3 test.py 07
         timeout: 10
         max-score: 1
     - name: Test 08
@@ -82,7 +82,7 @@ jobs:
       with:
         test-name: Test 08
         setup-command: pip3 install pandas
-        command: python3 tests.py 08
+        command: python3 test.py 08
         timeout: 10
         max-score: 1
     - name: Test 09
@@ -91,7 +91,7 @@ jobs:
       with:
         test-name: Test 09
         setup-command: pip3 install pandas
-        command: python3 tests.py 09
+        command: python3 test.py 09
         timeout: 10
         max-score: 1
     - name: Autograding Reporter
